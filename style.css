@@ -1,0 +1,31 @@
+body{
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1200px;
+  background: #E1E1E1;
+}
+
+img{
+  width: 600px;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar{
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb{
+  border-radius: 10px;
+  background: #2196F3;
+  box-shadow: inset 0px 0px 6px rgba(0, 0, 0, 0.5);
+}
+
+
+::-webkit-scrollbar-track{
+  border-radius: 10px;
+  background: #D5F7F7;
+  box-shadow: inset 0px 0px 6px rgba(0, 0, 0, 0.45);
+}
